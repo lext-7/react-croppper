@@ -1,0 +1,26 @@
+{
+    "extends": "airbnb",
+    "parser": "babel-eslint",
+    "rules": {
+        "indent": ["error", 4],
+        "camelcase": "off",
+        "no-param-reassign": "off",
+        "react/jsx-indent": ["error", 4],
+        "react/no-string-refs": "off",
+        // 在js也允许写jsx
+        "react/jsx-filename-extension": "off",
+        // jsx 属性缩进
+        "react/jsx-indent-props": ["error", 4],
+        "react/prefer-stateless-function": "off",
+        "react/jsx-no-bind": "off",
+        "class-methods-use-this": "off",
+        "jsx-a11y/no-static-element-interactions": "off",
+        "import/prefer-default-export": "warn",
+        "no-mixed-operators": "warn",
+        "react/no-unused-prop-types": "warn",
+        "no-nested-ternary": "warn"
+    },
+    "globals": {
+        "document": true
+    }
+}

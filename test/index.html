@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ant Design Admin</title>
+  <link rel="stylesheet" href="index.css" />
+  <style>
+    body {
+      padding: 40px 63px;
+      text-align: center;
+    }
+    #cropper div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cropper-container{
+      border: 1px solid #eee;
+    }
+    #preview {
+        position: relative;
+        overflow: hidden;
+        margin-left: 40px;
+    }
+    #preview img {
+        position: absolute;
+    }
+  </style>
+</head>
+<body>
+
+<div id="cropper"></div>
+
+<script src="common.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
